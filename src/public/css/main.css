@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@100;200;300;400;500;600;800&display=swap");
+/* global style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  background-color: #202020;
+  color: white;
+}
+.redsocial i {
+  color: #ffca2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ffca2d;
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+.redsocial i:hover {
+  color: black;
+  background-color: #ffca2d;
+}
+.formContact {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  gap: 20px;
+}
